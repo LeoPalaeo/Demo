@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 33,
+    "height" : 42
+  }, {
+    "width" : 66,
+    "height" : 84
+  }, {
+    "width" : 132,
+    "height" : 167
+  }, {
+    "width" : 263,
+    "height" : 334
+  }, {
+    "width" : 525,
+    "height" : 668
+  }, {
+    "width" : 1049,
+    "height" : 1336
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1049,
+  "@id" : "https://LeoPalaeo.github.io/Demo/images/fotoautomatica",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1336
+}

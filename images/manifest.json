@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://LeoPalaeo.github.io/Demo/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in LeoPalaeo/Demo project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://LeoPalaeo.github.io/Demo/images/fotoautomatica/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "fotoautomatica"
+                ]
+            },
+            "height": 1336,
+            "width": 1049,
+            "items": [
+                {
+                    "id": "https://LeoPalaeo.github.io/Demo/images/fotoautomatica/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://LeoPalaeo.github.io/Demo/images/fotoautomatica/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://LeoPalaeo.github.io/Demo/images/fotoautomatica/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 33,
+                                                "height": 42
+                                            },
+                                            {
+                                                "width": 66,
+                                                "height": 84
+                                            },
+                                            {
+                                                "width": 132,
+                                                "height": 167
+                                            },
+                                            {
+                                                "width": 263,
+                                                "height": 334
+                                            },
+                                            {
+                                                "width": 525,
+                                                "height": 668
+                                            },
+                                            {
+                                                "width": 1049,
+                                                "height": 1336
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1049,
+                                        "@id": "https://LeoPalaeo.github.io/Demo/images/fotoautomatica",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1336,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://LeoPalaeo.github.io/Demo/images/fotoautomatica/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
