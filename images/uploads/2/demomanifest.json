@@ -1,0 +1,92 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://49df2842-b872-46d3-89bb-22c4a799d0ea",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "9th century Welsh Manuscript of Martianus Capella's Marriage of Philology and Mercury, with interlinear gloss in Welsh and Latin",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://be3e21d1-c715-415f-a1c3-af45b438b9c2",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://cd8ebade-d0dd-470c-bb15-7f44b215ce65",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 5504,
+					"width": 3974,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fa63d22d-debd-4792-ae7e-2c3ed05fc6e7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/wb769ft6889%252F153_a_R_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://stacks.stanford.edu/image/iiif/wb769ft6889%252F153_a_R_TC_46",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 5504,
+								"width": 3974
+							},
+							"on": "http://cd8ebade-d0dd-470c-bb15-7f44b215ce65"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://1ce3ca77-470a-43cb-9b5f-12b42d1eb9cc",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 5458,
+					"width": 3906,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1d47e466-c285-4964-8e1a-6e8d23f89e1a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://stacks.stanford.edu/image/iiif/wb769ft6889%252F153_008_R_TC_46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://stacks.stanford.edu/image/iiif/wb769ft6889%252F153_008_R_TC_46",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 5458,
+								"width": 3906
+							},
+							"on": "http://1ce3ca77-470a-43cb-9b5f-12b42d1eb9cc"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
